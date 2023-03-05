@@ -1,0 +1,33 @@
+.bgImg {
+    background-image: url("../../imges/homePageImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    width: 100%;
+    overflow-x:hidden; 
+}
+.logo1{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    -ms-transform: rotate(42deg); 
+    transform: rotate(42deg);
+}
+
+
+.myFont{
+    text-align: center;
+    font-family: homeFont;
+  
+}
+.myFontHomePage{
+    font-size: 106px;
+}
+
+@font-face {
+    font-family: homeFont;
+    src: url("../../fonts/AmaticaSC-Bold.ttf");
+  }
+  
